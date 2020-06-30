@@ -2,6 +2,7 @@ package com.benjaminbutton.mapper;
 
 import com.benjaminbutton.bean.FcEstate;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Component;
 
 /**
  * <p>
@@ -11,6 +12,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author wwx
  * @since 2020-06-24
  */
+@Component
 public interface FcEstateMapper extends BaseMapper<FcEstate> {
 
 }

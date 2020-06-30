@@ -18,6 +18,11 @@ public class Common {
         this.result = result;
     }
 
+    public Common(String message, Integer code) {
+        this.message = message;
+        this.code = code;
+    }
+
     public String getMessage() {
         return message;
     }

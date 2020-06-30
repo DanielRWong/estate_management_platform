@@ -13,5 +13,5 @@
     <sql id="Base_Column_List">
         id, message_content, message_type
     </sql>
-
+    
 </mapper>

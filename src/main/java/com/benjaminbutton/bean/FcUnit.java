@@ -3,6 +3,8 @@ package com.benjaminbutton.bean;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 
 /**
